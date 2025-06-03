@@ -11,16 +11,13 @@
 
 */
 
+const var1 = {
+  name: "temp_name",
+  detail: { first_name: "temp_", family_name: "name" },
+};
 
 /*
    DEEP COPY=> 
-
-    const var1 = {
-    name: "temp_name",
-    detail: { first_name: "temp_", family_name: "name" },
-    };
-
-
 
     const var2 = JSON.parse(JSON.stringify(var1));
     var2.name = "TEMP_NAME";
@@ -29,24 +26,23 @@
 
     console.log("VAR 1 =>", var1);
     console.log("VAR 2 =>", var2);
+    
  */
 
-    //SHALLOW COPY 
+//SHALLOW COPY
 
-    const var2 =var1;
-    console.log("VAR 1 =>",var1);
-    var2.name="TEMP_NAME";
-    var2.detail.family_name = "NAME";
-    console.log(
-        `
+const var2 = var1;
+console.log("VAR 1 =>", var1);
+var2.name = "TEMP_NAME";
+var2.detail.family_name = "NAME";
+console.log(
+  `
         " without SPREAD operator ,copy result "
         `
-    );
+);
 
-    console.log("VAR 1 =>",var1);
-    console.log("VAR 2 =>",var2);
-  
-
+console.log("VAR 1 =>", var1);
+console.log("VAR 2 =>", var2);
 
 /*     const var2= {...var1};
  
@@ -79,9 +75,3 @@
     console.log("VAR 2 =>",var2);
     
     */
-
-
-
-
-
-
