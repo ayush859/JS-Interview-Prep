@@ -16,6 +16,7 @@ PROMISE METHODS :-
                 Promise.allsettled() :-wait till all the promises are executed but dont stop if failure encountered for any  and return all output 
                 Promise.any()  :- wait till 1st promise results in success , stops executing then and  return it 
 
+                
 */
 
 const promise = new Promise(function (resolve, reject) {
