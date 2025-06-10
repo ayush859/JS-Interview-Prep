@@ -19,8 +19,10 @@
 
         5) Promises :- for handling Async operations 
 
-        6) Class 
-        7) Destructuring 
+        6) Class :- class based syntax 
+
+        7) Destructuring :-used to extract values from arrays and objects 
+
         8) Default Parameters
 
 */
@@ -86,6 +88,18 @@
 
 */
 
+/* 
+
 let promise = new Promise ((resolve , reject)=>{
         resolve("success")
 })
+
+ */
+
+function newF(name="default Value"){
+    console.log(`Hello , ${name}`);
+    
+}
+
+newF("Brother")
+newF();
