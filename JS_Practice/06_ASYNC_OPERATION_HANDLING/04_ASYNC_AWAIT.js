@@ -1,4 +1,17 @@
 /* 
+  
+  ASYNC AWAIT :- await is a keyword which tells JS, wait here till promise is resolved , then move forward
+
+    ASYNC AWAIT better than everyone as :- 
+                    1)async/await is most preferred now because:
+                    2)Code looks clean and easy to follow.
+                    3)Easier to debug and write than chaining .then()
+                    4)Still based on Promises internally
+
+
+*/
+
+/* 
 WITHOUT USING ASYNC/ AWAIT / USING PROMISES FOR CALLBACK
 
     function greetDataFromUser(id){
