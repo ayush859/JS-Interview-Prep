@@ -1,6 +1,8 @@
 /* 
     FUNCTION EXPRESSION :- when we assign a arrow / named  function to variable 
                            can't be hoisted 
+                          
+
     we know let, const are hoisted but not intialized at top ,as they remain in TDZ  untill JS reaches where they are assigned
 */
 

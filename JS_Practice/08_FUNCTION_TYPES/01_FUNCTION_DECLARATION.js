@@ -1,7 +1,7 @@
 /* 
     FUNCTION DECLARATION => these are named function
                             can be hoisted 
-                        
+                            known as FUNCTION STATEMENT
 */
 
 named_func1()
