@@ -1,5 +1,5 @@
 /* 
-    CURRYING :- it is a technique of breaking a function into multiple functions each taking single arguments 
+    CURRYING :- it is a technique of breaking a function with multipe arguments into multiple functions each taking single arguments 
     F(a,b)=> F(a)(b)
 
     INFINITE CURRYING :- here we keep calling a function with single arguments ,and it returns function until we manually choose to stop and get the output
@@ -21,4 +21,3 @@ function infinite_sum(a){
 }
 
 console.log(infinite_sum(2)(3)(5)(4)());
-
