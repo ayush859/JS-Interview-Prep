@@ -1,5 +1,5 @@
 /* 
-
+2
 FALSY VALUES :- values which act false in conditional statement
 
                 types of falsy values are:-
