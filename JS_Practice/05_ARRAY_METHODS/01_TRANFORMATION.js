@@ -2,7 +2,7 @@
     THREE TYPES OF INBUILT TRANSFORMATION METHODS FOR ARRAYS:
 
         1) Map:-used for transformation 
-                 returns a new array by applying function applied to each element 
+                 returns a new array by applying function  to each element 
 
                  
         2) Filter :- for filtering 
