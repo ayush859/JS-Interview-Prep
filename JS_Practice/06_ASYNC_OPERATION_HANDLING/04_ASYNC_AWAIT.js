@@ -2,12 +2,17 @@
   
   ASYNC AWAIT :- await is a keyword which tells JS, wait here till promise is resolved , then move forward
 
+                async always returns a PROMISE , if normal value returned , it is warapped inside Promise
+
     ASYNC AWAIT better than everyone as :- 
                     1)async/await is most preferred now because:
                     2)Code looks clean and easy to follow.
                     3)Easier to debug and write than chaining .then()
                     4)Still based on Promises internally
 
+    WORKFLOW OF ASYNC / AWAIT :-
+                    1) ASYNC -> makes a function return a Promise — whether you return a value or a Promise.
+                    2) AWAIT -> pauses execution — it suspends the function, lets other code run via the event loop, and resumes once the Promise resolves.
 
 */
 
@@ -29,6 +34,17 @@ WITHOUT USING ASYNC/ AWAIT / USING PROMISES FOR CALLBACK
 
 
 */
+
+async function sayHello() {
+        return "We're returning a string from an async function — it will gets wrapped in a Promise"
+}
+
+const result =sayHello();
+console.log("data printed  inside promise\n",result);
+// to get actual values we will use either await or .then() 
+const result_with_await = await sayHello()
+console.log("data printed not inside promise\n",result_with_await)
+
 
 
 //USING ASYNC / AWAIT 
