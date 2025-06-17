@@ -62,21 +62,3 @@ let updated_Array = nestedArray.toString().split(',').map(Number)
 console.log(updated_Array)
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
