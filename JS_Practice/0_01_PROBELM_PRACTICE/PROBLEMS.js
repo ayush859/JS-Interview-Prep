@@ -62,3 +62,8 @@ let updated_Array = nestedArray.toString().split(',').map(Number)
 console.log(updated_Array)
 
 */
+
+//SPLIT data on the Basis of Capital Letters
+const str ="HelloHowAreYou"
+const result = str.split(/(?=[A-Z])/)
+console.log(result)
