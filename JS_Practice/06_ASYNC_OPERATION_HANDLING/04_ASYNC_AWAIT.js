@@ -12,7 +12,7 @@
 
     WORKFLOW OF ASYNC / AWAIT :-
                     1) ASYNC -> makes a function return a Promise — whether you return a value or a Promise.
-                    2) AWAIT -> pauses execution — it suspends the function, lets other code run via the event loop, and resumes once the Promise resolves.
+                    2) AWAIT -> pauses execution — it suspends the function, lets other code ru n via the event loop, and resumes once the Promise resolves.
 
 */
 
