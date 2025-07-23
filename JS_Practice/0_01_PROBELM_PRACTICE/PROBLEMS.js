@@ -63,7 +63,20 @@ console.log(updated_Array)
 
 */
 
-//SPLIT data on the Basis of Capital Letters
-const str ="HelloHowAreYou"
-const result = str.split(/(?=[A-Z])/)
-console.log(result)
+//SPLIT data on the Basis of Different Parameters :- 
+
+const str ="ello123@How#Are$You2025!"
+
+const Caps= str.split(/(?=[A-Z])/)
+console.log(Caps)
+const lower = str.split(/(?=[a-z])/)
+console.log(lower)
+const no = str.split(/(?=\d)/)  
+console.log(no)
+const no1 = str.split(/(?=[0-9])/)  
+console.log(no1)
+const combined_low_caps_num = str.split(/(?=[a-zA-Z0-9])/)
+console.log(combined_low_caps_num)
+
+const special_val = str.split(/(?=[^a-zA-Z0-9])+/)
+console.log(special_val)
