@@ -1,7 +1,7 @@
 /* 
 
     REST OPERATOR :- collecting/ gathering multiple individual values into single  Object/ Array
-                    helps in DESTRUCTIRING of object/ Arrays
+                    helps in DESTRUCTURING of object/ Arrays
 
                     mostly used as parameters 
 
