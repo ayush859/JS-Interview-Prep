@@ -2,7 +2,7 @@
 
 TRUE VALUES :- values which act as TRUE in conditional statement
 
-                types of falsy values are:-
+                types of true values are:-
                                         1)numbers: except (0,-0)
                                         2)non-empty string: ("  ") or (" _dfjdf ") or "0"
                                         3)empty Objects ,Arrays : {} or []
