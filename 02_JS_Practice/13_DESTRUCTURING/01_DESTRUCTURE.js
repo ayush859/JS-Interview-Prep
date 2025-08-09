@@ -1,16 +1,16 @@
-/* 
+/*
 
-    DESTRUCTURING :- it is a way of unpacking the values of Objects / Arrays 
-              
+    DESTRUCTURING :- it is a way of unpacking the values of Objects / Arrays
+
 
 */
 
 
 // ARRAY DESTRUCTURING
-/* 
-    //Default Values 
+/*
+    //Default Values
 
-       const [x=10,y=20]=[2]  
+       const [x=10,y=20]=[2]
        //the default values of x is changed to 10
        console.log(x);
        console.log(y);
@@ -19,7 +19,7 @@
     const fruits  =[10,20,30]
     const[a,b,c]=fruits;
     console.log(a)
-    console.log(b) 
+    console.log(b)
 
     //Skipping values in ARRAY
         const [, e, ]=fruits;
